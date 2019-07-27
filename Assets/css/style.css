@@ -1,0 +1,283 @@
+* {
+    font:"'Arial', 'Helvetica Neue', Helvetica, sans-serif";
+    font-size: 16px;
+    color: #777777;
+}
+
+h4{
+    color:white;
+}
+
+header{
+    height: 77px;
+    width: 100%;
+    background: #ffffff;
+    border-bottom: solid 2px #777777;
+    font-family: "'Georgia', Times, Times New Roman, serif";
+    position: fixed;
+    float:left; 
+    top: 0px;
+    left:0px;
+}
+
+#HeaderContainer{
+    height:77px;
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    position: relative;
+    top:0px;
+}
+
+
+
+p{
+    font:"'Arial', 'Helvetica Neue', Helvetica, sans-serif";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a:link{
+    color: #777777;
+    text-decoration: none;
+
+}
+
+a:visited{
+    color: #777777;
+    text-decoration:none;
+}
+
+a:hover{
+    color: black;
+    text-decoration:underline;
+}
+
+a:active{
+    color:#4aaaa5;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    position:relative;
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+
+.text-block{
+    position: absolute;
+    width:240px;
+    bottom:20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:center;
+}
+
+#Name{
+    height:  65px;
+    width: 280px;
+    padding-top:12px;
+    background: #4aaaa5;
+    text-align: center;
+    font-size:42px;
+    position: absolute;
+    float:left;
+    left: 0px;
+    z-index: 5;
+    color: white;
+}
+
+#Contact{
+    position: absolute;
+    float:right;
+    right: 0px;
+    z-index: 5;
+    color: #777777;
+    text-align: center;
+    height: 77px;
+    width: 100px;
+    padding-top: 30px;
+}
+
+#divider2{
+    position: absolute;
+    float:right;
+    right: 49px;
+    z-index: 10;
+    color: #777777;
+    text-align: center;
+    height: 77px;
+    width: 100px;
+    padding-top: 30px;    
+}
+
+#Portfolio{
+    position: absolute;
+    float:right;
+    z-index: 5;
+    color: #777777;
+    text-align: center;
+    height: 77px;
+    width: 110px;
+    padding-top: 30px;
+    border-right: 5px;
+    border-left: 5px;
+    border-right-color: #777777;
+    border-left-color: #777777;
+    right:100px;
+}
+
+#divider1{
+    position: absolute;
+    float:right;
+    right: 156px;
+    z-index: 10;
+    color: #777777;
+    text-align: center;
+    height: 77px;
+    width: 100px;
+    padding-top: 30px;    
+}
+
+#AboutMe{
+    position: absolute;
+    float:right;
+    z-index: 5;
+    color: #777777;
+    text-align: center;
+    height: 77px;
+    width: 100px;
+    padding-top: 30px;
+    right:210px;
+}
+
+
+body{
+    background-image: url("../images/funky-lines.png");
+}
+
+
+#AboutBody{
+    position: relative;
+    top: 100px;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom:30px;
+    height: 400;
+    background: #ffffff;
+    z-index: -5;
+    overflow:auto;
+}
+
+#AboutMe2{
+    height: 40px;
+    width:100%;
+    padding-top:15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    color: #4aaaa5;
+    font-size: 36px;
+    border-bottom: solid 2px #777777;
+}
+
+#Picture{
+    float:left;
+    margin-right:20px;
+}
+
+footer{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:30px;
+    clear: both;
+    color:white;
+    font-size: 11px;
+    line-height: 16px;
+    background: #777777;
+    text-align:center;
+    z-index:10;
+    border-top: solid 8px #4aaaa5;
+    left:0px;
+    margin-top: 20px;
+}
+
+.thumbnail{
+    width:260px;
+    height:200px;
+}
+
+.Project{
+    position:relative;
+    float:left;
+    top: 10px;
+    left:15px;
+    margin: 15px,15px,15px,15px;
+    padding:10px,10px,10px,10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #777777;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font:"'Arial', 'Helvetica Neue', Helvetica, sans-serif";
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    font:"'Arial', 'Helvetica Neue', Helvetica, sans-serif";
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: lightblue;h
+    font:"'Arial', 'Helvetica Neue', Helvetica, sans-serif";
+    font-size: 16px;
+  }
+  
+
+  button{
+      background-color:#4aaaa5;
+      border: none;
+      color: white;
+      font: 28px;
+      padding: 10px;
+      width: 150px;
+  }
+
+  button:hover{
+      border:solid 2px #777777;
+      color: #777777;
+  }
+
+  button:active{
+      background-color:#777777;
+      color: black;
+  }
+
+ 

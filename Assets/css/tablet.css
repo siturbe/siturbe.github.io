@@ -9,7 +9,7 @@ h4{
 }
 
 header{
-    height: 77px;
+    height: 60px;
     width: 100%;
     background: #ffffff;
     border-bottom: solid 2px #777777;
@@ -21,8 +21,8 @@ header{
 }
 
 #HeaderContainer{
-    height:77px;
-    width:960px;
+    height:60px;
+    width:80%;
     margin-right:auto;
     margin-left:auto;
     position: relative;
@@ -59,8 +59,8 @@ a:active{
 
 .column{
     float: left;
-    width: 33.33%;
-    padding: 10px;
+    width: 50%;
+    padding: 5%;
     position:relative;
 }
 
@@ -72,22 +72,22 @@ a:active{
 
 .text-block{
     position: absolute;
-    width:240px;
-    bottom:20px;
+    width:78%;
+    bottom:20%;
     background-color: #4aaaa5;
     color: white;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:5%;
+    padding-right:0%;
     text-align:center;
 }
 
 #Name{
-    height:  65px;
-    width: 280px;
-    padding-top:12px;
+    height:  48px;
+    width: 20%;
+    padding-top:14px;
     background: #4aaaa5;
     text-align: center;
-    font-size:42px;
+    font-size:28px;
     position: absolute;
     float:left;
     left: 0px;
@@ -102,8 +102,8 @@ a:active{
     z-index: 5;
     color: #777777;
     text-align: center;
-    height: 77px;
-    width: 100px;
+    height: 48px;
+    width: 15%;
     padding-top: 30px;
 }
 
@@ -114,8 +114,8 @@ a:active{
     z-index: 5;
     color: #777777;
     text-align: center;
-    height: 77px;
-    width: 110px;
+    height: 48px;
+    width: 17%;
     padding-top: 30px;
     border-right: 5px;
     border-left: 5px;
@@ -131,8 +131,8 @@ a:active{
     z-index: 5;
     color: #777777;
     text-align: center;
-    height: 77px;
-    width: 100px;
+    height: 48px;
+    width: 15%;
     padding-top: 30px;
     right:210px;
 }
@@ -146,7 +146,7 @@ body{
 #AboutBody{
     position: relative;
     top: 100px;
-    width:900px;
+    width:80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
@@ -168,7 +168,7 @@ body{
     margin-right: 25px;
     margin-bottom: 15px;
     color: #4aaaa5;
-    font-size: 36px;
+    font-size: 28px;
     border-bottom: solid 2px #777777;
 }
 
@@ -195,8 +195,8 @@ footer{
 }
 
 .thumbnail{
-    width:260px;
-    height:200px;
+    width:100%;
+    height:auto;
 }
 
 .Project{
@@ -245,7 +245,7 @@ input[type=text], select, textarea {
       color: white;
       font: 28px;
       padding: 10px;
-      width: 150px;
+      width: 22%;
   }
 
   button:hover{

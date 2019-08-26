@@ -232,7 +232,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: lightblue;h
+    background-color: lightblue;
     font:"'Arial', 'Helvetica Neue', Helvetica, sans-serif";
     font-size: 16px;
   }
